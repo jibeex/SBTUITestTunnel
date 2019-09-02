@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE074E7B231D639400A50F4E /* SBTUITestTunnelServer.h in Headers */ = {isa = PBXBuildFile; fileRef = CE074E79231D639400A50F4E /* SBTUITestTunnelServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE074EA5231D642000A50F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE074EA4231D641F00A50F4E /* Foundation.framework */; };
-		CE074EA7231D642600A50F4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE074EA6231D642600A50F4E /* UIKit.framework */; };
 		CE074EA8231D64A800A50F4E /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE074E4D231D578A00A50F4E /* UIView+Extensions.m */; };
 		CE074EA9231D64B000A50F4E /* UIViewController+SBTUITestTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE074E4E231D578A00A50F4E /* UIViewController+SBTUITestTunnel.m */; };
 		CE074EAA231D656800A50F4E /* UIViewController+SBTUITestTunnel.h in Headers */ = {isa = PBXBuildFile; fileRef = CE074E58231D578A00A50F4E /* UIViewController+SBTUITestTunnel.h */; };
@@ -77,8 +75,6 @@
 		CE074EF5231D69A000A50F4E /* SBTRewrite.h in Headers */ = {isa = PBXBuildFile; fileRef = CE074E34231D578400A50F4E /* SBTRewrite.h */; };
 		CE074EF6231D69A000A50F4E /* SBTRequestMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = CE074E35231D578400A50F4E /* SBTRequestMatch.h */; };
 		CE074EF7231D69A000A50F4E /* NSString+SwiftDemangle.h in Headers */ = {isa = PBXBuildFile; fileRef = CE074E36231D578400A50F4E /* NSString+SwiftDemangle.h */; };
-		CE074EF9231D69ED00A50F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE074EA4231D641F00A50F4E /* Foundation.framework */; };
-		CE074EFA231D6DDC00A50F4E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE074E70231D57CE00A50F4E /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,8 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE074ECE231D68C300A50F4E /* GCDWebServers.framework in Frameworks */,
-				CE074EA7231D642600A50F4E /* UIKit.framework in Frameworks */,
-				CE074EA5231D642000A50F4E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,8 +149,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE074EFA231D6DDC00A50F4E /* XCTest.framework in Frameworks */,
-				CE074EF9231D69ED00A50F4E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,10 +676,7 @@
 					"@loader_path/Frameworks",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				OTHER_LDFLAGS = (
-					"-weak_framework",
-					XCTest,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = qonto.eu.SBTUITestTunnelClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -715,10 +704,7 @@
 					"@loader_path/Frameworks",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				OTHER_LDFLAGS = (
-					"-weak_framework",
-					XCTest,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = qonto.eu.SBTUITestTunnelClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
