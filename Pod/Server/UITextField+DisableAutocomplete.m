@@ -24,6 +24,7 @@
 
 #import "UITextField+DisableAutocomplete.h"
 #import "SBTSwizzleHelpers.h"
+#import <UIKit/UIKit.h>
 
 @implementation UITextField (DisableAutocomplete)
 

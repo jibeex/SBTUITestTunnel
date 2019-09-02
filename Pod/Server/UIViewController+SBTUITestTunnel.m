@@ -24,6 +24,7 @@
 
 #import "UIViewController+SBTUITestTunnel.h"
 #import "SBTSwizzleHelpers.h"
+#import <UIKit/UIKit.h>
 
 @interface SBTUIViewControllerPreviewingGroup : NSObject
 

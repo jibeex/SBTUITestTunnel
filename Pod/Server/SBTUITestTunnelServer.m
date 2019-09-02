@@ -32,9 +32,9 @@
 #import "SBTMonitoredNetworkRequest.h"
 #import "SBTAnyViewControllerPreviewing.h"
 #import "UIViewController+SBTUITestTunnel.h"
-#import <GCDWebServer/GCDWebServer.h>
-#import <GCDWebServer/GCDWebServerURLEncodedFormRequest.h>
-#import <GCDWebServer/GCDWebServerDataResponse.h>
+#import <GCDWebServers/GCDWebServer.h>
+#import <GCDWebServers/GCDWebServerURLEncodedFormRequest.h>
+#import <GCDWebServers/GCDWebServerDataResponse.h>
 #import "NSData+SHA1.h"
 #import "UIView+Extensions.h"
 #import <CoreLocation/CoreLocation.h>
