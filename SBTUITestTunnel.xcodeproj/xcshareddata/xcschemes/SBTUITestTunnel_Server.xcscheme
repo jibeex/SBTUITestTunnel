@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE074E76231D639400A50F4E"
+               BlueprintIdentifier = "CE04756F231E70D600108221"
                BuildableName = "SBTUITestTunnel_Server.framework"
                BlueprintName = "SBTUITestTunnel_Server"
                ReferencedContainer = "container:SBTUITestTunnel.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE074E76231D639400A50F4E"
+            BlueprintIdentifier = "CE04756F231E70D600108221"
             BuildableName = "SBTUITestTunnel_Server.framework"
             BlueprintName = "SBTUITestTunnel_Server"
             ReferencedContainer = "container:SBTUITestTunnel.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE074E76231D639400A50F4E"
+            BlueprintIdentifier = "CE04756F231E70D600108221"
             BuildableName = "SBTUITestTunnel_Server.framework"
             BlueprintName = "SBTUITestTunnel_Server"
             ReferencedContainer = "container:SBTUITestTunnel.xcodeproj">
