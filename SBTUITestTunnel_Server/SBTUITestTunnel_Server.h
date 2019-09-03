@@ -16,6 +16,8 @@ FOUNDATION_EXPORT const unsigned char SBTUITestTunnel_ServerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SBTUITestTunnel_Server/PublicHeader.h>
 
+#ifndef SBTUITestTunnelServer_h
+#define SBTUITestTunnelServer_h
 
 #import "SBTUITestTunnelServer.h"
 #import "NSURLSession+HTTPBodyFix.h"
@@ -37,3 +39,5 @@ FOUNDATION_EXPORT const unsigned char SBTUITestTunnel_ServerVersionString[];
 #import "SBTRewrite.h"
 #import "SBTRequestMatch.h"
 #import "NSString+SwiftDemangle.h"
+
+#endif
